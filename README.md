@@ -12,7 +12,7 @@ The repository contains all the data (https://github.com/labxscut/OmiHier/releas
 ## Installation
 ```R
 install.packages('devtools')
-devtools::install_github("labxscut/OmiHier@package", subdir = "OmiHier")
+devtools::install_github("labxscut/OmiHier")
 ```
 
 
