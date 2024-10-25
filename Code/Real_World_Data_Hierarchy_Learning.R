@@ -136,11 +136,11 @@ print(symmetric_distance_matrix)
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
 # plot
-pdf("~/R/omihier/Figures/brca_dendrogram1.pdf")
+pdf("~/R/DHMOC/Figures/brca_dendrogram1.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 3)
 dend <- set(dend, "labels_cex", 0.8)
-plot(dend, main = "OmiHier-BRCA", xlab = "Intrinsic Subtype")
+plot(dend, main = "DHMOC-BRCA", xlab = "Intrinsic Subtype")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
@@ -181,11 +181,11 @@ print(symmetric_distance_matrix)
 
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
-pdf("~/R/omihier/Figures/brca_dendrogram2.pdf")
+pdf("~/R/DHMOC/Figures/brca_dendrogram2.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 3)
 dend <- set(dend, "labels_cex", 0.8)
-plot(dend, main = "OmiHier-BRCA", xlab = "Intrinsic Subtype")
+plot(dend, main = "DHMOC-BRCA", xlab = "Intrinsic Subtype")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
@@ -227,11 +227,11 @@ print(symmetric_distance_matrix)
 
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
-pdf("~/R/omihier/Figures/brca_dendrogram3.pdf")
+pdf("~/R/DHMOC/Figures/brca_dendrogram3.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 2)
 dend <- set(dend, "labels_cex", 0.8)
-plot(dend, main = "OmiHier-BRCA", xlab = "Intrinsic Subtype")
+plot(dend, main = "DHMOC-BRCA", xlab = "Intrinsic Subtype")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
@@ -311,11 +311,11 @@ print(symmetric_distance_matrix)
 
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
-pdf("~/R/omihier/Figures/gc_dendrogram1.pdf")
+pdf("~/R/DHMOC/Figures/gc_dendrogram1.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 3)
 dend <- set(dend, "labels_cex", 0.8)
-plot(dend, main = "OmiHier-GC", xlab = "Intrinsic Subtype")
+plot(dend, main = "DHMOC-GC", xlab = "Intrinsic Subtype")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
@@ -362,11 +362,11 @@ print(symmetric_distance_matrix)
 
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
-pdf("~/R/omihier/Figures/gc_dendrogram2.pdf")
+pdf("~/R/DHMOC/Figures/gc_dendrogram2.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 3)
 dend <- set(dend, "labels_cex", 0.8)
-plot(dend, main = "OmiHier-GC", xlab = "Intrinsic Subtype")
+plot(dend, main = "DHMOC-GC", xlab = "Intrinsic Subtype")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
@@ -411,11 +411,11 @@ print(symmetric_distance_matrix)
 
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
-pdf("~/R/omihier/Figures/gc_dendrogram3.pdf")
+pdf("~/R/DHMOC/Figures/gc_dendrogram3.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 2)
 dend <- set(dend, "labels_cex", 0.8) 
-plot(dend, main = "OmiHier-GC", xlab = "Intrinsic Subtype")
+plot(dend, main = "DHMOC-GC", xlab = "Intrinsic Subtype")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
@@ -539,11 +539,11 @@ print(symmetric_distance_matrix)
 
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
-pdf("~/R/omihier/Figures/ktuple_dendrogram1.pdf")
+pdf("~/R/DHMOC/Figures/ktuple_dendrogram1.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 3)
 dend <- set(dend, "labels_cex", 0.8)
-plot(dend, main = "OmiHier-Ktuple", xlab = "Type")
+plot(dend, main = "DHMOC-Ktuple", xlab = "Type")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
@@ -621,11 +621,11 @@ print(symmetric_distance_matrix)
 
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
-pdf("~/R/omihier/Figures/HCC_dendrogram1.pdf")
+pdf("~/R/DHMOC/Figures/HCC_dendrogram1.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 4)
 dend <- set(dend, "labels_cex", 0.8)
-plot(dend, main = "OmiHier-Spatial", xlab = "Type")
+plot(dend, main = "DHMOC-Spatial", xlab = "Type")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
@@ -669,11 +669,11 @@ print(symmetric_distance_matrix)
 
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
-pdf("~/R/omihier/Figures/HCC_dendrogram2.pdf")
+pdf("~/R/DHMOC/Figures/HCC_dendrogram2.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 3)
 dend <- set(dend, "labels_cex", 0.8)
-plot(dend, main = "OmiHier-Spatial", xlab = "Type")
+plot(dend, main = "DHMOC-Spatial", xlab = "Type")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
@@ -717,11 +717,11 @@ print(symmetric_distance_matrix)
 
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
-pdf("~/R/omihier/Figures/HCC_dendrogram3.pdf")
+pdf("~/R/DHMOC/Figures/HCC_dendrogram3.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 2)
 dend <- set(dend, "labels_cex", 0.8)
-plot(dend, main = "OmiHier-Spatial", xlab = "Type")
+plot(dend, main = "DHMOC-Spatial", xlab = "Type")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
@@ -834,11 +834,11 @@ print(symmetric_distance_matrix)
 
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
-pdf("~/R/omihier/Figures/NCIrna_dendrogram1.pdf")
+pdf("~/R/DHMOC/Figures/NCIrna_dendrogram1.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 3)
 dend <- set(dend, "labels_cex", 0.8)
-plot(dend, main = "OmiHier-NCIrna", xlab = "Type")
+plot(dend, main = "DHMOC-NCIrna", xlab = "Type")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
@@ -879,11 +879,11 @@ print(symmetric_distance_matrix)
 
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
-pdf("~/R/omihier/Figures/NCIrna_dendrogram2.pdf")
+pdf("~/R/DHMOC/Figures/NCIrna_dendrogram2.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 2)
 dend <- set(dend, "labels_cex", 0.8)
-plot(dend, main = "OmiHier-NCIrna", xlab = "Type")
+plot(dend, main = "DHMOC-NCIrna", xlab = "Type")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
@@ -965,11 +965,11 @@ print(symmetric_distance_matrix)
 
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
-pdf("~/R/omihier/Figures/lymphoid_dendrogram1.pdf")
+pdf("~/R/DHMOC/Figures/lymphoid_dendrogram1.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 4)
 dend <- set(dend, "labels_cex", 0.8)
-plot(dend, main = "OmiHier-lymphoid", xlab = "type")
+plot(dend, main = "DHMOC-lymphoid", xlab = "type")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
@@ -1016,11 +1016,11 @@ print(symmetric_distance_matrix)
 
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
-pdf("~/R/omihier/Figures/lymphoid_dendrogram2.pdf")
+pdf("~/R/DHMOC/Figures/lymphoid_dendrogram2.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 3)
 dend <- set(dend, "labels_cex", 0.8)
-plot(dend, main = "OmiHier-lymphoid", xlab = "type")
+plot(dend, main = "DHMOC-lymphoid", xlab = "type")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
@@ -1067,11 +1067,11 @@ print(symmetric_distance_matrix)
 
 hc <- hclust(as.dist(symmetric_distance_matrix), method = "single")
 
-pdf("~/R/omihier/Figures/lymphoid_dendrogram3.pdf")
+pdf("~/R/DHMOC/Figures/lymphoid_dendrogram3.pdf")
 dend <- as.dendrogram(hc)
 dend <- color_branches(dend, k = 3)
 dend <- set(dend, "labels_cex", 0.8)
-plot(dend, main = "OmiHier-lymphoid", xlab = "type")
+plot(dend, main = "DHMOC-lymphoid", xlab = "type")
 dev.off()
 
 rm(A,dend,distance_matrix,hc,affinity_matrix,normalized_A,normalized_distance_matrix,
