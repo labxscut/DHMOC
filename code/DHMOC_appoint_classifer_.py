@@ -2,7 +2,7 @@ import os
 import sys
 from sklearn.preprocessing import LabelEncoder 
 sys.path.append('/work2/wlp/DHMOC/DHMOC/DHMOC_new/code')
-from DHMOC_selecte_classifer import LazyClassifier
+from DHMOC_classifer_select import LazyClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis 
 from sklearn.linear_model import LogisticRegression
 from lightgbm import LGBMClassifier
