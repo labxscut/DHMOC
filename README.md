@@ -1,20 +1,18 @@
-# DHMOC: simultaneous learning of class label and hierarchy for omics data multi-class classification
-*Jiemin Xie, Guanghao Wu, Keyi Li, Zhanyu Liang, Bozhen Ren, Xuemei Liu, Yunhui Xiong, Li C. Xia**
+# DHMOC: a data-driven hierarchical learning framework for multi-class omics data classification
+
+*Linping Wang, Jiemin Xie, Lei Ba, Jiarong Wu, Keyi Li, Xuemei Liu, Yunhui Xiong, Li C. Xia,***
 
 ## Summary
-We proposed Omics Label Hierarchy Learning (DHMOC), a data-driven hierarchical structure learning algorithm. DHMOC adopts a bottom-up iterative framework, interlacing classification error minimization with successive label clustering, thus enables automatic and simultaneous learning of both class hierarchy and sample labels. We evaluated DHMOC on a number of simulated and real-world multi-omics datasets, including complex disease, microbiome, single-cell and spatial transcriptomics data. The benchmark demonstrated DHMOC’s high performance in classification accuracy, as well in inferring the true biological hierarchy.
+We proposed the method of data-driven hierarchical learning framework for multi-class omics data classification (DHMOC), interlacing classification error minimization with successive label clustering, thus enables automatic and simultaneous learning of both class hierarchy and sample labels. We evaluated DHMOC on a number of simulated and real-world multi-omics datasets, including complex disease, microbiome, single-cell and spatial transcriptomics data. The benchmark demonstrated DHMOC’s high performance in classification accuracy, as well in inferring the true biological hierarchy.
 
-The repository contains all the data (https://github.com/labxscut/DHMOC/releases/tag/DHMOC_Data) and code (https://github.com/labxscut/DHMOC/tree/main/Code) used in this study, as well as some important results (please refer to the figures(https://github.com/labxscut/DHMOC/tree/main/Figures).
+The repository contains all the data and code (https://github.com/labxscut/DHMOC/tree/DHMOC/code) used in this study, as well as some important results (please refer to the figures(https://github.com/labxscut/DHMOC/tree/main/Figures).
 
 ![image](Figures/Figure1_Study_framework.png)
 
 
 ## Installation
-```R
-install.packages('devtools')
-devtools::install_github("labxscut/DHMOC")
-```
 
+*******
 
 ## Data 
 
