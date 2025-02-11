@@ -1,6 +1,6 @@
 # DHMOC: a data-driven hierarchical learning framework for multi-class omics data classification
 
-*Linping Wang, Jiemin Xie, Lei Ba, Jiarong Wu, Keyi Li, Xuemei Liu, Yunhui Xiong, Li C. Xia,***
+*Linping Wang, Jiemin Xie, Lei Ba, Jiarong Wu, Keyi Li, Xuemei Liu, Yunhui Xiong, Li C. Xia*
 
 ## Summary
 We proposed the method of data-driven hierarchical learning framework for multi-class omics data classification (DHMOC), interlacing classification error minimization with successive label clustering, thus enables automatic and simultaneous learning of both class hierarchy and sample labels. We evaluated DHMOC on a number of simulated and real-world multi-omics datasets, including complex disease, microbiome, single-cell and spatial transcriptomics data. The benchmark demonstrated DHMOC’s high performance in classification accuracy, as well in inferring the true biological hierarchy.
