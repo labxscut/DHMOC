@@ -2,7 +2,7 @@
 Supervised Models
 """
 import textwrap
-# Author: Shankar Rao Pandala <shankar.pandala@live.com>
+
 from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import LabelEncoder
 from scipy.cluster.hierarchy import linkage, dendrogram
