@@ -1,3 +1,18 @@
+import os
+import sys
+from sklearn.preprocessing import LabelEncoder 
+sys.path.append('/work2/wlp/DHMOC/DHMOC/DHMOC_new/code')
+from DHMOC_selecte_classifer import LazyClassifier
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis 
+from sklearn.linear_model import LogisticRegression
+from lightgbm import LGBMClassifier
+from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier, ExtraTreesClassifier
+import pandas as pd
+from sklearn.model_selection import train_test_split
+import numpy as np
+import h5py
+from scipy import sparse
+
 # Create output directory to save results
 output_dir = '/work2/wlp/DHMOC/DHMOC/DHMOC_new/code'
 os.makedirs(output_dir, exist_ok=True)
