@@ -10,9 +10,7 @@ The repository contains all the data and code (https://github.com/labxscut/DHMOC
 ![image](Figures/Figure1_Study_framework.png)
 
 
-## Installation
 
-*******
 
 ## 	Simulation Data 
 To evaluate the robustness and effectiveness of the DHMOC method, simulation datasets were generated under controlled conditions, designed to reflect diverse real-world scenarios. The simulation framework systematically varied sample sizes, feature dimensions, class counts, and noise distributions to ensure comprehensive testing across different contexts. The parameters considered for the simulations included sample sizes (500, 1000, 5000, and 10,000), feature dimensions (500, 1000, 5000, and 10,000), and class counts (3, 5, 7, and 10). Additionally, noise levels were modeled using standard deviations of (1/100, 1/10, 1/6, 1/4, 1/3, 1, 3), which can also be expressed as coefficients of variation 𝜆=𝜎/𝜇. Here, 𝜎 is the standard deviation of the noise, which controls the degree of dispersion of the data points. Meanwhile, 𝜇 serves as a key parameter to regulate the generation of class centers and the overall distribution characteristics of the data. Three statistical distributions were used to generate feature values, each paired with appropriate noise models to simulate variability:
